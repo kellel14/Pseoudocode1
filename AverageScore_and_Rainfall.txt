@@ -1,0 +1,46 @@
+Find Average Score of Exams
+
+
+// What you need
+Input{
+	Number_of_Students = 10
+	Exam_Grades	
+};
+
+//What to do
+Processing Steps{
+	Set total = 0
+	Set counter to 1
+	Counter < 10 
+	Add Exam_Grades
+	Add 1 to Counter
+	Total_Exam_Scores / Number_of_Students 
+	Result = Total_Exam_Scores / Number_of_Students
+};
+
+//What you see	
+Outputs{
+	print.out.print(Results)
+};
+
+
+How much water runs off the roof
+
+//What you need
+50' x 20' Feet converted to inches
+Amount of rainfall in inches: one inch
+
+//What to do 
+Dimensions_of_Roof = 600*240
+Inches_of_Rainfall = 1
+Gallon_in_inches = 231
+
+Water_on_Roof = Dimensions_of_Roof * Inches_of_Rainfall
+
+//Find number of gallons
+
+Runoff_in_gallons = Water_on_Roof / Gallon_in_inches
+System.out.println( Runoff_in_gallons "runs off a roof in a rainstorm.)
+System.out.println( "Wow that's a lot of Water!")
+
+
