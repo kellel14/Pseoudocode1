@@ -1,0 +1,37 @@
+Process customer record
+
+// Initialize Variables
+Main
+	Declare String customer_name
+	Declare Real purchase_amount
+	Declare Real tax_code	
+	Declare Real sales_tax
+	Declare Real total_due
+	
+	Display "Enter the customer name here"
+	Input customer_name
+	
+	Display "Enter the purchase amount"
+	Input purchase_amount
+	
+	Display "Enter the tax code; between 0 and 3"
+	Input tax_code
+	
+	While(
+	If(tax_code == 0) 
+		Set sales_tax = 0.0
+	If(tax_code == 1) 
+		Set sales_tax = 0.03
+	If(tax_code == 0) 
+		Set sales_tax = 0.05
+	If(tax_code == 0) 
+		Set sales_tax = 0.07
+	Else
+		print "Error, Selection must be between 0 and 3"
+		
+	//Calculating the total amount due
+
+	Set total_due = purchase_amount * (1 + sales_tax)
+	
+
+	
