@@ -1,0 +1,125 @@
+Process customer record
+
+// Initialize Variables
+Main
+	Declare String customer_name
+	Declare Real purchase_amount
+	Declare Real tax_code	
+	Declare Real sales_tax
+	Declare Real total_due
+	
+	Display "Enter the customer name here"
+	Input customer_name
+	
+	Display "Enter the purchase amount"
+	Input purchase_amount
+	
+	Display "Enter tax code number. Tax code must be between 0 and 3."
+	Input tax_code
+	
+	While(
+	If(tax_code == 0) 
+		Set sales_tax = 0.0
+	If(tax_code == 1) 
+		Set sales_tax = 0.03
+	If(tax_code == 0) 
+		Set sales_tax = 0.05
+	If(tax_code == 0) 
+		Set sales_tax = 0.07
+	Else
+		Print "Error, Selection must be between 0 and 3."
+		
+	//Calculating the total amount due
+
+	Set total_due = purchase_amount * (1 + sales_tax)
+	
+
+	Display "The cusomter's name is ", customer_name
+	Display "The purchase amount is ", purchase_amount
+	Display "The sales tax is ", sales_tax * 100,"%"
+	Display "The total amount due is ", total_due
+End Main
+
+
+
+Calculate employee's pay
+
+Main
+	Declare int EmpNum
+	Declare Real pay_rate
+	Declare Real hrs_wrk
+	Declare Real wkly_pay
+	Declare Real max_hrs_wrk = 60
+	Declare Real max_pay_rate = 25
+	
+	Display "Enter the employee's number: " 
+	Input EmpNum
+	
+	Display "Enter the employee's pay rate: "
+	Input pay_rate
+	
+	Display "Enter the number of hours worked in the week: "
+	Input wkly_pay
+	
+	//Validate if pay rate and hours worked is in/out of range
+	
+	If (pay_rate <= max_pay_rate && hrs_wrk <= max_hrs_wrk)
+		If(hrs_wrk <= 35) 
+			Set wkly_pay = hrs_wrk * pay_rate
+		Else
+			Set wkly_pay = 35 * pay_rate + ((hrs_wrk) * (pay_rate * 1.5))
+		
+		Display "The weekly pay for the amount of hours worked: ", hrs_wrk, " is $", wkly_pay
+
+	Else
+		Display "ERROR: The values entered is out of range."
+		Display "The employee's weekly pay cannot be calculated."
+		
+	End else
+	
+	Display "The employee's number is: ", EmpNum
+	
+	Display "The pay rate is: ", pay_rate
+	
+	Display "The number of hours worked this week is ", hrs_wrk
+End Main
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
