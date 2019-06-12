@@ -1,0 +1,33 @@
+Kelly Francois
+
+How to navigate to Subway
+
+Starting point: room 440
+	if you are in the classrom, exit classroom
+		if you are facing the grey and blue wall turn 90 degrees left
+	then slowly continue down the hall until you reach the first intersection || see two elevator doors
+			if you dont see the elevator doors || pass the intersection, retrace your steps, start over
+		turn 90 degrees right and proceed to elevator doors
+			if not facing the elevator, turn an additional 90 degrees
+		approach the elevator doors
+	call the elevator by pressing the button on the wall
+		enter into the elevator when either the left or right door opens
+		then turn 180 degrees facing the elevator door once agiain
+			the buttons on the left indicate floor levels
+				press the '1' button to select the first floor
+		Above indicates the current floor levels	
+			when the elevator reaches level one and the door opens	
+			exit the elevator
+	Then turn 90 degrees left, proceed to end of hall 
+		then turn 90 degrees facing the glass door of the building entrance/exit
+		exit the building
+		turn 90 degrees
+	When facing the parking garage continue straight, following the pathway
+		stop at the end of the path do not cross the street, entering the parking garage
+		turn 90 degrees left
+	 Continue, Follow the rest of the pathway until it ends, do not cross the street
+		you will see the Subway on your left
+		turn 90 degrees right
+			make sure there are no incoming vehicles in your path
+		continue forward, crossing the street
+	You have reached your destination!
